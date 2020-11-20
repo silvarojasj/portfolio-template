@@ -28,16 +28,18 @@ export default function Home() {
       <Layout>
         <LeftColumn>
           <Header
-            name="Ada Lovelace"
-            position="Matemática y escritora"
+            name="Juan Manuel Silva"
+            position="Ingeniero Electronico y futuro FullStack"
             profilePicture="/img/profile-pic.jpg"
           />
           <CoverText>
-            Hola soy Ada, la condesa de Lovelace. Soy una matemática y
-            escritora. Me interesan los modelos matemáticos en especial los
-            relacionados con el sistema nervioso humano. Considero que la
-            computación es más que números, creo que puede aplicarse a otros
-            campos como el arte y la música.
+          Ingeniero electrónico recién egresado, con conocimiento en el desarrollo e implementación de
+          sistemas electrónicos analógicos, digitales y de potencia; sistemas de control y automatización,
+          además de conocimientos en redes de comunicación.
+          Con experiencia en formulación y desarrollo de proyectos interdisciplinarios, además de
+          investigación.
+          Gran comunicador, adicto a la tecnología y deportista.
+          Interesado en ser parte importante de un proyecto digital que me aporte nuevos conocimientos.
           </CoverText>
           <ExperienceBox
             date="Diciembre 1843"
@@ -62,14 +64,14 @@ export default function Home() {
             <SkillsItem date="Enero 1830">Escritora</SkillsItem>
           </SkillsList>
           <SkillsList name="Contacto" icon={GrContactInfo}>
-            <SkillsItem>123-456-789</SkillsItem>
+            <SkillsItem>+573103872998</SkillsItem>
             <SkillsItem>
               <a
-                href="mailto:ada@ada-school.org"
+                href="mailto:silvarojasj@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ada@ada-school.org
+                silvarojasj@gmail.com
               </a>
             </SkillsItem>
             <SkillsItem>
@@ -86,17 +88,19 @@ export default function Home() {
             </SkillsItem>
           </SkillsList>
           <SkillsList name="Lenguajes y Frameworks" icon={DiCode}>
-            <SkillsItem>React</SkillsItem>
-            <SkillsItem>Node.js</SkillsItem>
-            <SkillsItem>JavaScript</SkillsItem>
-            <SkillsItem>MongoDB</SkillsItem>
-            <SkillsItem>PWA</SkillsItem>
-            <SkillsItem>Typescript</SkillsItem>
+            <SkillsItem>Assembler</SkillsItem>
+            <SkillsItem>c</SkillsItem>
+            <SkillsItem>C++</SkillsItem>
+            <SkillsItem>C#</SkillsItem>
+            <SkillsItem>Python</SkillsItem>
+            <SkillsItem>Matlab</SkillsItem>
+            <SkillsItem>Qt</SkillsItem>
+            <SkillsItem>Spyder</SkillsItem>
           </SkillsList>
           <SkillsList name="Habilidades técnicas" icon={FaTools}>
-            <SkillsItem>TDD</SkillsItem>
-            <SkillsItem>Continuous Deployment</SkillsItem>
-            <SkillsItem>SCRUM</SkillsItem>
+            <SkillsItem>Diseno de circuitos</SkillsItem>
+            <SkillsItem>Simulacion de circuitos</SkillsItem>
+            <SkillsItem>Sistemas Embebidos</SkillsItem>
           </SkillsList>
           <SkillsList name="Habilidades Blandas" icon={RiUserVoiceFill}>
             <SkillsItem>Comunicación efectiva</SkillsItem>
