@@ -17,3 +17,8 @@ yarn dev
 ```
 yarn export
 ```
+
+## Deploy in netlify
+
+Build command: `npm run export`
+Publish directory: `out`
